@@ -1,0 +1,1 @@
+This repository demonstrates an example of unexpected type coercion in JavaScript. The `foo` function adds two arguments, but when a number and a string are passed, JavaScript implicitly converts the number to a string and concatenates them instead of performing numerical addition. The solution shows how to explicitly check types or use parseInt to prevent this.
